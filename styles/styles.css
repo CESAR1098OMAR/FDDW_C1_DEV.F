@@ -1,0 +1,62 @@
+*{
+    color:green;
+}
+
+/* Header */
+
+h1 {
+    color: brown;
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+nav ul li a{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:white;
+}
+
+nav ul li {
+    margin: auto 50px  ;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    background-color: brown;
+}
+
+/* Main */
+
+h2 {
+    color: darkviolet;
+}
+
+.parrafo1 {
+    color: red;
+    background-color: yellow;
+}
+
+.parrafo2 {
+    color: blue;
+}
+
+/* Footer */
+
+#derechos {
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+/* Block | Inline | Inline-Block */
+ nav ul li {
+    display: inline-block;
+    background-color: chartreuse;
+    width: 60px;
+    padding: 8px;
+    height: 20px;
+ }
